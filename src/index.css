@@ -11,3 +11,120 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.input-task{
+  outline: none;
+  width: -webkit-fill-available;
+  height: 35px;
+}
+
+.form-input{
+  padding: 10px;
+  display: block;
+}
+
+
+.description-task{
+  outline: none;
+  width: -webkit-fill-available;
+}
+
+.d-flex{
+  display: flex;
+}
+
+@media only screen and (max-width: 500px) {
+  .d-flex{
+    display: block;
+  }
+}
+
+
+.mr-5{
+  margin-right: 5px;
+}
+
+.ml-5{
+  margin-left: 5px;
+}
+
+.mr-15{
+  margin-right: 15px;
+}
+
+.ml-15{
+  margin-left: 15px;
+}
+
+.mb-15{
+  margin-bottom: 15px;
+}
+
+.mt-40{
+  margin-top: 40px;
+}
+
+.w-full{
+  width: -webkit-fill-available;
+}
+
+.btn{
+  cursor: pointer;
+  outline: none;
+  font-weight: bold;
+  height: 40px;
+  background-color: #5cb85c;
+  border: none;
+  border-radius: 3px;
+  color: white;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.f-right{
+  float: right;
+}
+
+.btn-info {
+  cursor: pointer;
+  outline: none;
+  font-weight: bold;
+  height: 40px;
+  background-color: #00bcd4;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  padding: 0px 20px;
+}
+
+.btn-danger {
+  cursor: pointer;
+  outline: none;
+  font-weight: bold;
+  height: 40px;
+  background-color: #d9534f;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  padding: 0px 20px;
+}
+
+.btn-primary {
+  cursor: pointer;
+  outline: none;
+  font-weight: bold;
+  height: 40px;
+  background-color: #2196f3;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  padding: 0px 20px;
+}
+
+.container{
+  max-width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+}
